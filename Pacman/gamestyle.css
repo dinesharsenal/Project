@@ -1,0 +1,23 @@
+h1{
+	text-align: center;
+}
+
+#game-status{
+	margin: auto;
+	display: block;
+	width:140px;
+	background-color:magenta;
+}
+
+ul{
+	background-color: magenta;
+}
+div li:hover{
+	background-color: grey;
+}
+#buton{
+       text-align: center;
+}
+.container-fluid{
+	background-color: cyan;
+}
