@@ -1,0 +1,59 @@
+//Created by Samkit Barbhaya
+//Last edited on 06/10/2018
+
+Requirements : Python should be installed on your computer
+
+If Python is not installed ,
+
+1) Installation on Windows
+
+Download and install Python 2.7.10 for Windows
+Go to Python 2.7.10 downloads page
+Find and download the Windows installer file that matches your system.
+Open the file to start the installation wizard.
+Follow the instructions and make a note of where Python is installed on your system.
+
+Add Python to path
+In the Windows menu, search for “advanced system settings” and select View advanced system settings.
+In the window that appears, click Environment Variables… near the bottom right.
+In the next window, find and select the user variable named Path and click Edit… to change its value. The value for this variable is a semi-colon-delimited list of file locations.
+Scroll to the end of the value, add a semi-colon, and then add the location of python.exe. (If you do not know where your python.exe is, you can search for it.)
+Click OK to save this change.
+If you do not have a user variable named Path, click the New… button.
+Add a variable named Path and make its value the location of python.exe.
+
+Finding python.exe
+If you do not know where Python was installed, search for python.exe in the Windows menu.
+Right-click the file name in the results, select Properties, and find Location.
+Copy the location and add it to your path variable.
+Confirm addition to path
+Open a new command prompt and re-run the original command:
+python
+to confirm that Python 2.7.10 is installed and added to your path.
+
+2)Installation on Linux
+
+Open Terminal
+Run the following command:
+sudo apt-get install python
+After the installation is complete type python to confirm the installation.
+
+Download the MovieReviewSystem.zip file and decompress the file using WinRAR or any other unzip software.
+Copy the MovieReviewSystem folder and paste it to your desired location .
+Open Windows CMD or Linux terminal.
+Go to the location where you pasted your Folder by typing cd path command , where path is the location of the software.
+Example: The folder is on desktop , type cd Desktop
+Now type the following command
+python MovieReviewSystem.py
+This will run the main module .
+
+3)Now open the project folder and run the CarPoolSystem.py file on terminal
+This is the main file and it contains options which user can select.
+
+4)CarpoolSystem continains options
+	1.Register
+	2.Login
+	3.Carpool
+	4.viewRating
+	5.Exit
+User can select any option

@@ -1,0 +1,4 @@
+i10,gogi,kandivali,vasai,amazing
+i20,tapu,kandivali,dadar,unhappy
+hyundai,santosh,dadar,matunga,Newly Joined
+nissan,ranbir,dadar,bandra,Newly Joined
